@@ -1,0 +1,382 @@
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.tarolo {
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.fejlec {
+    background-image: url("orang.jpg");
+    height: 100vh;
+    background-size: cover;
+    padding: 10px;
+}
+.fejlec p {
+    font-size: 16px;
+    color: grey;
+}
+
+
+.fejlec ul {
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+}
+.fejlec li {
+    font-size: 15px;
+    background-color: #de7000;
+    padding: 15px;
+    list-style: none;
+    border: 3px solid #de7000;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px #202020;
+}
+.fejlec a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+.fejlec li:hover {
+  background-color: black;
+}
+.keresem {
+    margin: 0 35%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------- Block2 -------- */
+.block2 {
+    background-color: #161616;
+    display: inline-block;
+    padding: 30px;
+}
+.block2 h1 {
+    font-weight: lighter;
+    font-size: 25px;
+}
+.block2 p {
+    font-size: 15px;
+    color: grey;
+}
+.block2 ul {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+.block2 li {
+    font-size: 15px;
+    background-color: #de7000;
+    padding: 15px;
+    list-style: none;
+    border: 3px solid #de7000;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px #202020;
+}
+.block2 a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+.block2 li:hover {
+  background-color: black;
+}
+
+
+
+
+
+/* -------- Kinti cicak -------- */
+.kinti_cicak {
+    background-color: #161616;
+    display: inline-block;
+    padding: 30px;
+    color: white;
+}
+.kinti_cicak h1 {
+    font-weight: lighter;
+    font-size: 30px;
+}
+.kinti_cicak p {
+    font-size: 16px;
+    color: grey;
+}
+.kinti_cicak h3 {
+    font-weight: lighter;
+    font-size: 17px;
+}
+.kinti_cicak ul li {
+    list-style-type: disc;
+    text-align: left;
+    color: grey;
+}
+.kinti_cicak_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 20px 10px 20px;
+}
+.norveg_macska {
+    width: 85%;
+    float: left;
+    border-radius: 8%;
+}
+.maine_coon {
+    width: 85%;
+    float: right;
+    border-radius: 8%;
+}
+.kinti_cicak p2 {
+    position: absolute;
+    font-size: 23px;
+
+}
+.norveg_macska_szoveg {
+    left: 80px;
+    margin: 310px 0px 0px 0px;
+    font-weight: bold;
+}
+.maine_coon_szoveg {
+    right: 190px;
+    margin: 310px 0px 0px 0px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+/* -------- Benti cicak -------- */
+.benti_cicak {
+    background-color: #161616;
+    display: inline-block;
+    padding: 30px;
+    color: white;
+}
+.benti_cicak h1 {
+    font-weight: lighter;
+    font-size: 30px;
+}
+.benti_cicak p {
+    font-size: 16px;
+    color: grey;
+}
+.benti_cicak ul li {
+    list-style-type: disc;
+    text-align: left;
+    color: grey;
+}
+.benti_cicak_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 20px 10px 20px;
+}
+.bengali_macska {
+    width: 85%;
+    float: left;
+    border-radius: 8%;
+}
+.meg_ez_a_cica {
+    width: 85%;
+    float: right;
+    border-radius: 8%;
+}
+.benti_cicak p2 {
+    position: absolute;
+    font-size: 23px;
+
+}
+.bengali_macska_szoveg {
+    left: 100px;
+    margin: 310px 0px 0px 0px;
+    font-weight: bold;
+}
+.meg_ez_a_cica_szoveg {
+    right: 170px;
+    margin: 310px 0px 0px 0px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+/* -------- Fedezd fel -------- */
+.fedezdfel {
+    background-color: #161616;
+    display: inline-block;
+    padding: 30px;
+    color: black;
+    font-size: 15px;
+}
+.fedezdfel h1 {
+    font-weight: lighter;
+    font-size: 30px;
+    color: white;
+}
+.fedezdfel_grid {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 20px 10px 20px;
+}
+.kisallat_grid {
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+}
+.kisallat {
+    width: 30%;
+    float: left;
+    height: auto;
+}
+.kisallat_grid h1 {
+    color: black;
+    clear: both;
+    text-align: left;
+    font-size: 27px;
+    font-weight: bold;
+}
+.kisallat_grid p {
+    font-size: 18px;
+    text-align: left;
+}
+.kisallat_grid li {
+    background-color: #de7000;
+    padding: 15px;
+    list-style: none;
+    border: 3px solid #de7000;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px #C0C0C0;
+    margin: 15px;
+}
+.kisallat_grid a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.kisallat_grid li:hover {
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+/* -------- Eseményeink -------- */
+.esemenyeink {
+    background-color: #161616;
+    display: inline-block;
+    padding: 30px;
+    color: white;
+    font-size: 15px;
+}
+.esemenyeink h1 {
+    font-weight: lighter;
+    font-size: 30px;
+}
+.esemenyeink_grid {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 20px 10px 20px;
+}
+.block_grid {
+    background-color: #333332;
+    border: 2px solid grey;
+    border-radius: 15px;
+    padding: 15px;
+}
+.block_grid h1 {
+    clear: both;
+    text-align: left;
+    font-size: 27px;
+    font-weight: bold;
+}
+.block_grid p {
+    font-size: 18px;
+    text-align: left;
+}
+.block_grid li {
+    background-color: #333332;
+    padding: 15px;
+    list-style: none;
+    border: 2px solid #de7000;
+    border-radius: 25px;
+    box-shadow: 0px 2px 4px #202020;
+    margin: 15px;
+}
+.block_grid a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+.block_grid li:hover a {
+  background-color: #333332;
+  color: orange;
+}
+
+
+
+
+
+
+
+
+/* -------- horizontal-line -------- */
+.horizontal-line {
+    height: 2px;
+    background-color: #de7000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
